@@ -10,7 +10,7 @@ public class DataBase {
 		try {
 		      // This will load the MySQL driver, each DB has its own driver
 		      Class.forName("com.mysql.jdbc.Driver");
-			return DriverManager.getConnection("jdbc:mysql://localhost/messages?"
+			return DriverManager.getConnection("jdbc:mysql://localhost/estacionamiento?"
 			    + "user=root");//if there is a password it should place it here.
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
